@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rado Rohandi | Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #1e3a8a, #3b82f6); }
+        .section-title { position: relative; }
+        .section-title:after { 
+            content: ''; 
+            position: absolute; 
+            bottom: -8px; 
+            left: 0; 
+            width: 60px; 
+            height: 4px; 
+            background: #3b82f6; 
+            border-radius: 9999px; 
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-200">
+
+    <!-- Hero Section -->
+    <header class="hero-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/30"></div>
+        <div class="max-w-4xl mx-auto text-center px-6 relative z-10">
+            <img src="fto rado.jpeg" 
+                 alt="Rado Rohandi" 
+                 class="w-56 h-56 mx-auto rounded-full border-8 border-white/30 shadow-2xl mb-8 object-cover">
+            
+            <h1 class="text-6xl font-bold mb-3">Rado Rohandi</h1>
+            <p class="text-3xl text-blue-300 font-medium mb-6">Software Engineer Aspirant</p>
+            <p class="text-xl max-w-lg mx-auto opacity-90">
+                Mahasiswa Smart City Information System – Telkom University<br>
+                Membangun solusi digital yang bermanfaat
+            </p>
+
+            <div class="mt-10 flex gap-4 justify-center">
+                <a href="#about" 
+                   class="px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-blue-100 transition flex items-center gap-2">
+                    <i class="fas fa-user"></i> Tentang Saya
+                </a>
+                <a href="#contact" 
+                   class="px-8 py-4 border-2 border-white font-semibold rounded-full hover:bg-white/10 transition">
+                    Hubungi Saya
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+            <i class="fas fa-chevron-down text-4xl"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gray-900">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold text-center mb-16">Tentang Saya</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p class="text-lg leading-relaxed mb-6">
+                        Saya adalah seorang Software Engineer yang memiliki minat besar dalam pengembangan aplikasi dan teknologi digital. 
+                        Saya terbiasa bekerja dengan bahasa pemrograman seperti <span class="text-blue-400 font-medium">Java, HTML, dan CSS</span>.
+                    </p>
+                    <p class="text-lg leading-relaxed mb-6">
+                        Saya memiliki pemahaman kuat dalam konsep pemrograman, database, dan pengembangan website, ditambah kemampuan problem solving yang baik.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Tujuan saya adalah menjadi Software Engineer profesional yang menciptakan aplikasi inovatif dan berdampak luas.
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-3xl">
+                    <h3 class="text-2xl font-semibold mb-6 text-blue-400">Tujuan Saya</h3>
+                    <p class="text-lg">Mengembangkan aplikasi inovatif, efisien, dan dapat digunakan secara luas di bidang Smart City dan teknologi digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Skills -->
+    <section class="py-24 bg-gray-950">
+        <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="section-title text-4xl font-bold mb-10">Pendidikan</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-6"><div class="w-20 h-20 bg-blue-900/50 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">🏫</div><div><h4 class="font-semibold text-xl">SDN Negeri Babakan Loa</h4><p class="text-gray-400">2013 – 2019</p></div></div>
+                    <div class="flex gap-6"><div class="w-20 h-20 bg-blue-900/50 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">🏫</div><div><h4 class="font-semibold text-xl">SMP KP 1 Paseh</h4><p class="text-gray-400">2019 – 2022</p></div></div>
+                    <div class="flex gap-6"><div class="w-20 h-20 bg-blue-900/50 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">🏫</div><div><h4 class="font-semibold text-xl">SMAN Negeri 1 Majalaya</h4><p class="text-gray-400">2022 – 2025</p></div></div>
+                    <div class="flex gap-6"><div class="w-20 h-20 bg-blue-900/50 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">🎓</div><div><h4 class="font-semibold text-xl">Telkom University</h4><p class="text-blue-400">S.Kom – Smart City Information System (2025 – sekarang)</p></div></div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="section-title text-4xl font-bold mb-10">Skill & Pengalaman</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-gray-900 p-6 rounded-3xl hover:bg-gray-800 transition"><i class="fab fa-java text-4xl text-orange-500 mb-4"></i><h4 class="font-semibold">Java</h4></div>
+                    <div class="bg-gray-900 p-6 rounded-3xl hover:bg-gray-800 transition"><i class="fas fa-code text-4xl text-blue-400 mb-4"></i><h4 class="font-semibold">HTML & CSS</h4></div>
+                    <div class="bg-gray-900 p-6 rounded-3xl hover:bg-gray-800 transition"><i class="fas fa-database text-4xl text-emerald-400 mb-4"></i><h4 class="font-semibold">Database</h4></div>
+                    <div class="bg-gray-900 p-6 rounded-3xl hover:bg-gray-800 transition"><i class="fas fa-lightbulb text-4xl text-yellow-400 mb-4"></i><h4 class="font-semibold">Problem Solving</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Paling Penting - Sudah Bisa Langsung ke App) -->
+    <section id="contact" class="py-24 bg-gray-900">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="section-title text-4xl font-bold mb-8 inline-block">Mari Terhubung</h2>
+            <p class="text-xl mb-12">Saya terbuka untuk diskusi, kolaborasi, atau kesempatan magang/project</p>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/6283815975870" target="_blank"
+                   class="bg-green-600 hover:bg-green-700 transition p-10 rounded-3xl flex flex-col items-center group">
+                    <i class="fab fa-whatsapp text-6xl mb-6 group-hover:scale-110 transition"></i>
+                    <span class="font-semibold text-2xl">WhatsApp</span>
+                    <span class="text-sm opacity-75 mt-1">0838-1597-5870</span>
+                </a>
+                
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/radorohandi_" target="_blank"
+                   class="bg-gradient-to-br from-pink-500 to-purple-600 hover:brightness-110 transition p-10 rounded-3xl flex flex-col items-center group">
+                    <i class="fab fa-instagram text-6xl mb-6 group-hover:scale-110 transition"></i>
+                    <span class="font-semibold text-2xl">Instagram</span>
+                    <span class="text-sm opacity-75 mt-1">@radorohandi_</span>
+                </a>
+                
+                <!-- Email -->
+                <a href="mailto:radorohandi02@gmail.com" 
+                   class="bg-blue-600 hover:bg-blue-700 transition p-10 rounded-3xl flex flex-col items-center group">
+                    <i class="fas fa-envelope text-6xl mb-6 group-hover:scale-110 transition"></i>
+                    <span class="font-semibold text-2xl">Email</span>
+                    <span class="text-sm opacity-75 mt-1">radorohandi02@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-10 text-center text-gray-500">
+        <p>© 2026 Rado Rohandi • Bandung, Indonesia</p>
+        <p class="text-sm mt-2">Aspiring Software Engineer • Telkom University</p>
+    </footer>
+
+</body>
+</html>
